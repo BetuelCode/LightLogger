@@ -13,9 +13,9 @@ Here we explain the Python script processing for analyzing
 Each step includes the corresponding raw data, along with the data preparation and calculations necessary for visualization.
 
 ### Step 1: Characterization of UV channels
-Folder: `01_UV`
-Input: `spectrometer_data/filtered`
-Output: `UV_spectrometer_code.ipynb`
+Folder: `01_UV`<br>
+Input: `spectrometer_data/filtered`<br>
+Output: `UV_spectrometer_code.ipynb`<br>
 Code: `UV_spectrometer_code.ipynb`
 
 ### Ste 2: Spectral sensitivity
