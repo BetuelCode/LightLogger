@@ -14,30 +14,44 @@ Here we explain the Python script processing for analyzing
 Each step includes the corresponding raw data, along with the data preparation and calculations necessary for visualization.
 
 ### Step 1: Characterization of UV channels
-Folder: `01_UV`<br>
-Input: `spectrometer_data/filtered`<br>
-Output: `UV_spectrometer_code.ipynb`<br>
+
+#### Spectrometer
+Folder: `01_UV` <br>
+Input: `file1 - file12.csv`  <br>
+Output: `UV_spectrometer_code.ipynb` <br>
 Code: `UV_spectrometer_code.ipynb`
 
+#### Sensor
+Folder: `01_UV` <br>
+Input: `sensor_parameter.csv` <br>
+Output: `UV_sensor_code.ipynb` <br>
+Code: `UV_sensor_code.ipynb`
+
+#### Algorithm
+Folder: `01_UV` <br>
+Input: `sensor_algorithm.csv` <br>
+Output: `UV_algorithm_code.ipynb` <br>
+Code: `UV_algorithm_code.ipynb`
+
 ### Ste 2: Spectral sensitivity
-Folder: `02_Spectral`<br>
-Input: ``<br>
-Output: ``<br>
-Code: ``
+Folder: `02_Spectral` <br>
+Input (sensor): `spectral_sensor_10% - spectral_sensor_100%.csv` <br>
+Input (spectrometer): `spectral_Jeti_10%.csv - spectral_Jeti_100%.csv`, `spectral_Jeti_all intensities.csv`, `total_irradiance.csv` <br>
+Output: `spectral_code.ipynb` <br>
+Code: `spectral_code.ipynb`
 
 ### Step 3: Directional dependance
 Folder: `03_Directional`<br>
-Input: ``<br>
-Output: ``<br>
-Code: ``
+Input (sensor): `direc_ssensor_450nm.csv - direc_sensor_550nm.csv`, `normalized_sensor_450nm.csv - normalized_sensor_550nm.csv` <br>
+Input (spectrometer): `direc_450nm.csv - direc_550nm.csv` <br>
+Output: `directional_code.ipynb`<br>
+Code: `directional_code.ipynb`
 
 ### Step 3: Diffuser testing
-Folder: `04_Diffuser`<br>
-Input: ``<br>
-Output: ``<br>
-Code: ``
-
-# Output
+Folder: `03_Directional`<br>
+Input: `directional_pure_sensor+truebungskon0,5%.csv - directional_pure_sensor+truebungskon2%.csv`, `trübungskon0,5%_normalized.csv - trübungskon2%_normalized.csv` <br>
+Output: `directional_code.ipynb`<br>
+Code: `directional_code.ipynb`
 
 
 
