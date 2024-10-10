@@ -23,7 +23,7 @@ Input: `file1 - file12.csv`  <br>
 Output: `UV_spectrometer_code.ipynb` <br>
 Code: `UV_spectrometer_code.ipynb`
 
-For the calibration of the UV channels, the corresponding data from the OceanOptics spectrometer can be found in this folder `01_UV`. The data file containing all acquired spectrometer data is in `01_UV/spectrometer_data`. Hereby, the CSV files in the `filtered` folder were used, which contain only the relevant information from the raw data.
+For the calibration of the UV channels, the corresponding data from the OceanOptics spectrometer can be found in this folder `01_UV`. The data file containing all acquired spectrometer data is in `01_UV/spectrometer_data`. Hereby, the CSV files in the `filtered` folder were used, which contain only the relevant information obtained from the raw data.
 
 **Note:** We have also included the raw data with all acquired data from the OceanOptics spectrometer, which can be found in the folder `rawdata`.  
 
@@ -33,6 +33,8 @@ Folder: `01_UV` <br>
 Input: `sensor_parameter.csv` <br>
 Output: `UV_sensor_code.ipynb` <br>
 Code: `UV_sensor_code.ipynb`
+
+In order to develop an algorithm that automatically adjusts the parameters to changing light conditions, data with varying parameters were tested. The corresponding data can be found in this folder: `sensor_data`.
 
 #### Algorithm
 Folder: `01_UV` <br>
