@@ -1,5 +1,5 @@
 # Overview
-This repository contains the Light Logger project, which involves the acquisition of calibration data with an emphasis on spectral and directional analysis. You will find both the raw sensor and spectrometer data within this repository. The provided code is intended for data visualization and analysis.
+This repository contains the Light Logger project, which involves the acquisition of calibration data with an emphasis on spectral and directional analysis. You will find both the raw sensor and spectrometer data within this repository. The provided code is intended for data visualization and analysis, and is publicly accessible under the MIT license (see LICENSE.md file).
 
 If you have any comments or queries, please reach out to us at b.kayacik@web.de and manuel.spitschan@tum.de.
 
