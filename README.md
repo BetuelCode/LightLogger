@@ -1,6 +1,8 @@
 # Overview
 This repository contains the Light Logger project, which involves the acquisition of calibration data with an emphasis on spectral and directional analysis. You will find both the raw sensor and spectrometer data within this repository. The provided code is intended for data visualization and analysis.
 
+If you have any comments or queries, please reach out to us at b.kayacik@web.de and manuel.spitschan@tum.de.
+
 # Dependency Management
 This Python project utilizes **pip** for package management. Use `pip install -r requirements.txt` to download the correct package versions (the given version or higher) and ensure computational reproducibility. When running the Python code files, make sure to use a virtual environment (e.g., created with venv or conda) to avoid issues with package dependencies and working directories.
 
