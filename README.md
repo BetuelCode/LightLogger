@@ -37,21 +37,21 @@ Code: `UV_algorithm_code.ipynb`
 
 ### Ste 2: Spectral sensitivity
 Folder: `02_Spectral` <br>
-Input (sensor): `spectral_sensor_10% - spectral_sensor_100%.csv` <br>
-Input (spectrometer): `spectral_Jeti_10%.csv - spectral_Jeti_100%.csv`, `spectral_Jeti_all intensities.csv`, `total_irradiance.csv` <br>
+Input (sensor): `spectral_sensor_10%-100%.csv` <br>
+Input (spectrometer): `spectral_Jeti_10%-100%.csv`, `spectral_Jeti_all intensities.csv`, `total_irradiance.csv` <br>
 Output: `spectral_code.ipynb` <br>
 Code: `spectral_code.ipynb`
 
 ### Step 3: Directional dependance
 Folder: `03_Directional`<br>
-Input (sensor): `direc_ssensor_450nm.csv - direc_sensor_550nm.csv`, `normalized_sensor_450nm.csv - normalized_sensor_550nm.csv` <br>
-Input (spectrometer): `direc_450nm.csv - direc_550nm.csv` <br>
+Input (sensor): `direc_sensor_450-550nm.csv`, `normalized_sensor_450-550nm.csv` <br>
+Input (spectrometer): `direc_450-550nm.csv` <br>
 Output: `directional_code.ipynb`<br>
 Code: `directional_code.ipynb`
 
 ### Step 3: Diffuser testing
 Folder: `03_Directional`<br>
-Input: `directional_pure_sensor+truebungskon0,5%.csv - directional_pure_sensor+truebungskon2%.csv`, `trübungskon0,5%_normalized.csv - trübungskon2%_normalized.csv` <br>
+Input: `directional_pure_sensor+truebungskon0,5%-2%.csv`, `trübungskon0,5%-2%_normalized.csv` <br>
 Output: `directional_code.ipynb`<br>
 Code: `directional_code.ipynb`
 
