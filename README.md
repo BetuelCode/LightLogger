@@ -7,8 +7,9 @@ This Python project utilizes **pip** for package management. Use `pip install -r
 # Workflow description 
 Here we explain the Python script processing for analyzing 
 - Characterization of UV channels
-- Spectral sensitivity and
-- Directional dependance of the novel light logger.
+- Spectral sensitivity
+- Directional dependance of the novel light logger and
+- Diffuser testing.
 
 Each step includes the corresponding raw data, along with the data preparation and calculations necessary for visualization.
 
@@ -19,6 +20,24 @@ Output: `UV_spectrometer_code.ipynb`<br>
 Code: `UV_spectrometer_code.ipynb`
 
 ### Ste 2: Spectral sensitivity
+Folder: `02_Spectral`<br>
+Input: ``<br>
+Output: ``<br>
+Code: ``
 
 ### Step 3: Directional dependance
+Folder: `03_Directional`<br>
+Input: ``<br>
+Output: ``<br>
+Code: ``
+
+### Step 3: Diffuser testing
+Folder: `04_Diffuser`<br>
+Input: ``<br>
+Output: ``<br>
+Code: ``
+
+# Output
+
+
 
