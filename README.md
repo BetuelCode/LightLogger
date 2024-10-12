@@ -60,11 +60,15 @@ Input (spectrometer): `direc_450-550nm.csv` <br>
 Output: `directional_code.ipynb`<br>
 Code: `directional_code.ipynb`
 
+The data required to run the code is organized into separate folders (`sensor_data` and `jeti_data`) containing sensor data and spectrometer data.
+
 ### Step 3: Diffuser testing
 Folder: `03_Directional`<br>
 Input: `directional_pure_sensor+truebungskon0,5%-2%.csv`, `trübungskon0,5%-2%_normalized.csv` <br>
 Output: `directional_code.ipynb`<br>
 Code: `directional_code.ipynb`
+
+Additional test measurements with the diffusers were conducted, and the data can be retrieved from the folder `diffuser`.
 
 
 
