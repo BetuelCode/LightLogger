@@ -42,12 +42,16 @@ Input: `sensor_algorithm.csv` <br>
 Output: `UV_algorithm_code.ipynb` <br>
 Code: `UV_algorithm_code.ipynb`
 
+After developing the algorithm, sensor data was collected (see folder `sensor_data`).
+
 ### Ste 2: Spectral sensitivity
 Folder: `02_Spectral` <br>
-Input (sensor): `spectral_sensor_10%-100%.csv` <br>
-Input (spectrometer): `spectral_Jeti_10%-100%.csv`, `spectral_Jeti_all intensities.csv`, `total_irradiance.csv` <br>
+Input (sensor): `spectral_sensor_10% - 100%.csv` <br>
+Input (spectrometer): `spectral_Jeti_10% - 100%.csv`, `spectral_Jeti_all intensities.csv`, `total_irradiance.csv` <br>
 Output: `spectral_code.ipynb` <br>
 Code: `spectral_code.ipynb`
+
+The data required to run the code is organized into separate folders (`sensor_data` and `jeti_data`) containing sensor data and spectrometer data.
 
 ### Step 3: Directional dependance
 Folder: `03_Directional`<br>
